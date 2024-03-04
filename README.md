@@ -44,23 +44,9 @@ Ahora vamos a compilar el código fuente del programa:
 make compilar
 ```
 
-### 5. Crear el Archivo JAR
+### 5. Ejecutar el Programa
 
-Después de compilar, vamos a crear el archivo JAR que contiene el programa:
-
-```bash
-make jar
-```
-
-### 6. Ejecutar el Programa
-
-Finalmente, vamos a ejecutar el programa para obtener una estimación de Pi. Reemplaza `x` con el número de puntos que deseas generar para la estimación de Pi:
-
-```bash
-java -jar src/pi.jar x
-```
-
-Por ejemplo, para generar 1000 puntos y estimar Pi, ejecuta:
+Finalmente, vamos a ejecutar el programa para obtener una estimación de Pi. Reemplaza `1000` con el número de puntos que deseas generar para la estimación de Pi:
 
 ```bash
 java -jar src/pi.jar 1000
