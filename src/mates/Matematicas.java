@@ -1,6 +1,10 @@
 package mates;
-
+// imports radom libary 
 import java.util.Random;
+
+/**
+ * Esta clase proporciona métodos para realizar cálculos matemáticos, incluida una aproximación de Pi mediante el método de Montecarlo.
+ */
 
 public class Matematicas {
 
