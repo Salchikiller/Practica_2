@@ -12,7 +12,7 @@ public class Matematicas {
      * @return Una aproximación del número Pi.
      */
     public static double generarPiRecursivamente(long pasos) {
-        // Se llama al método auxiliar para generar la aproximación recursivamente
+        // Se llama al método ade ayuda para generar la aproximación recursivamente
         Random rand = new Random(); // Se crea una instancia de Random
         return generarPiRecursivamenteWorker(pasos, pasos, 0, rand);
     }
